@@ -36,7 +36,7 @@ source=("http://www.kernel.org/pub/linux/kernel/v6.x/${_srcname}.tar.xz"
         '1017-arm64-dts-allwinner-add-OrangePi-3-LTS.patch'                        # Orange Pi 3 LTS (by Furkan)
         '1018-Add-support-for-the-Hardkernel-ODROID-M1-board.patch'                # Odroid M1; V3 From list: https://patchwork.kernel.org/project/linux-rockchip/list/?series=682120 (applied in linux-next)
         '1019-arm64-dts-rockchip-add-rk3568-station-p2.patch'                      # Firefly Station P2 (by Furkan)
-        '1020-arm64-dts-meson-radxa-zero-add-support-for-the-usb-t.patch'          # Radxa Zero (by Furkan)
+        '1020-arm64-dts-meson-radxa-zero-fix.patch'                                # Radxa Zero: apply meson-g12a-radxa-zero.dts from https://github.com/radxa/kernel/blob/linux-5.10.y-radxa-zero/arch/arm64/boot/dts/amlogic/meson-g12a-radxa-zero.dts
         '1021-arm64-dts-rockchip-add-OrangePi-4-LTS.patch'                         # Orange Pi 4 LTS (by Furkan)
         '1022-Add-YT8531C-phy-support.patch'                                       # Motorcomm PHY (by Furkan)
         '1023-add-phy-rockchip-Support-PCIe-v3.patch'                              # Rockchip; (applied in linux-rc) 
@@ -87,7 +87,7 @@ md5sums=('5a7ea40f0ec23b0800e8b52cb44ed04c'
          'e285b47405d8eab611ba17bcbf2f9cbf'
          'a0c5eef4fbb129f3ca7b569b220e6681'
          '206dadb349d169d5ba226c291fd05430'
-         '9799998aa9b72fae2eb55e92d840dad5'
+         'a4240fe684b2c0a7c28b470d7dc935ec'
          '227466ec46ffce1684835c87640c46c2'
          '77200aa6b89276b9035f13c4bb422b98'
          '8cf60a66691809a648a1c763a62ec5de'
